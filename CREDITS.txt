@@ -1,0 +1,12 @@
+Shore animation experiment 02
+
+Adapted from "Sea Waves on the Beach Shore" by Eduardo Allegrini:
+https://codepen.io/edalgrin/pen/jOMQJBK
+
+Uses the reference's quadratic wave segments, layered foam/water passes and
+reversing tide concept. Adapted to plain Canvas without React, bounded to the
+portfolio divider, with time-based motion, reduced-motion support, pause while
+the page is hidden, and horizontal separators on mobile.
+
+Portfolio artwork and media: Yuyang (Alef) Liu.
+https://www.artstation.com/alefliu
