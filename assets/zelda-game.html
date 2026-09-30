@@ -1,0 +1,16 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Inverted Maze — Play</title>
+<style>*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;background:#000;color:#eee8d8;font:14px Arial}body{display:flex;flex-direction:column}canvas{width:100%;height:calc(100% - 32px);object-fit:contain;display:block;outline:none}footer{height:32px;display:flex;align-items:center;justify-content:space-between;padding:0 10px;background:#25454f}button{color:inherit;background:none;border:1px solid #aaa;cursor:pointer}#status{position:absolute;top:45%;width:100%;padding:20px;text-align:center;background:#25454f}#status[hidden]{display:none}</style></head>
+<body><canvas id="game" width="960" height="600" tabindex="0" aria-label="The Legend of Zelda Recreation — Inverted Maze"></canvas><div id="status" role="status">Loading game…</div><footer><span>Inverted Maze</span><button id="fullscreen" disabled>Fullscreen</button></footer>
+<script src="zelda-WebBuild.loader.js"></script><script>
+const canvas=document.getElementById('game'),status=document.getElementById('status'),full=document.getElementById('fullscreen');
+const zh=new URLSearchParams(location.search).get('lang')==='zh';
+full.textContent=zh?'全屏':'Fullscreen';
+createUnityInstance(canvas,{
+dataUrl:'zelda-WebBuild.data.unityweb',frameworkUrl:'zelda-WebBuild.framework.js.unityweb',codeUrl:'zelda-WebBuild.wasm.unityweb',
+companyName:'DefaultCompany',productName:'Zelda - Gold - Alef and Mike',productVersion:'1.0',matchWebGLToCanvasSize:false,
+showBanner:(message,type)=>{if(type==='error'){status.hidden=false;status.textContent=message;}}
+},progress=>{status.textContent=(zh?'正在加载游戏… ':'Loading game… ')+Math.round(progress*100)+'%';})
+.then(game=>{status.hidden=true;full.disabled=false;full.onclick=()=>game.SetFullscreen(1);canvas.focus();})
+.catch(error=>{status.hidden=false;status.textContent=(zh?'游戏加载失败：':'Game could not load: ')+error;});
+</script></body></html>
