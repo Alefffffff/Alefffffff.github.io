@@ -67,15 +67,16 @@ const portfolio = {
         "EECS 494",
         "Level design"
       ],
-      "description": "This student project recreates the core dungeon experience of the original *The Legend of Zelda* using Unity and C#, including combat, enemy behavior, and room-based exploration.\n\nBuilding on this foundation, we created **Inverted Maze**, a custom dungeon where ladders let players walk on walls while ordinary floors become barriers. Players push boxes onto gravity buttons to rotate entire rooms 180 degrees, causing weights to fall and reveal new passages. These mechanics challenge players to rethink familiar spaces and plan how each action changes the available routes.\n\nI developed behavior scripts for enemies including Stalfos and Keese, along with shared enemy animation, damage feedback, and audio systems. I designed most of Inverted Maze?s levels and gameplay mechanics, combining wall traversal, box pushing, room rotation, and falling weights into connected puzzles. I also hand-drew some of the art assets and worked on gameplay UI, screen shake, and audiovisual feedback to make the new mechanics easier to understand.\n\n**Team:** Yuyang (Alef) Liu and Mike Xiangyu Cai",
-      "detail": "Screenshots from The Legend of Zelda Recreation | Inverted Maze.",
-      "video": "nAHYC61vze8",
+      "description": "This student project recreates the core dungeon experience of the original *The Legend of Zelda* using Unity and C#, including combat, enemy behavior, and room-based exploration.",
+      "detail": "Building on this foundation, we created **Inverted Maze**, a custom dungeon where ladders let players walk on walls while ordinary floors become barriers. Players push boxes onto gravity buttons to rotate entire rooms 180 degrees, causing weights to fall and reveal new passages. These mechanics challenge players to rethink familiar spaces and plan how each action changes the available routes.\n\nI developed behavior scripts for enemies including Stalfos and Keese, along with shared enemy animation, damage feedback, and audio systems. I designed most of Inverted Maze’s levels and gameplay mechanics, combining wall traversal, box pushing, room rotation, and falling weights into connected puzzles. I also hand-drew some of the art assets and worked on gameplay UI, screen shake, and audiovisual feedback to make the new mechanics easier to understand.\n\n**Team:** Yuyang (Alef) Liu and Mike Xiangyu Cai",
       "images": [
         "assets/zelda-01.png",
         "assets/zelda-02.png",
         "assets/zelda-03.png",
         "assets/zelda-04.png"
-      ]
+      ],
+      "detailVideo": "nAHYC61vze8",
+      "game": "assets/zelda-game.html"
     }
   ],
   "artworks": [
