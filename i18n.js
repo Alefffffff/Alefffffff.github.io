@@ -1,6 +1,23 @@
 // English copy lives in content.js / app.js. Add its Chinese equivalent here.
 // Unlisted strings (including product and project names) keep their original text.
 const chinese = {
+"Recreated the 1986 NES game The Legend of Zelda and added custom puzzle levels. Completed all scripting, level design, scene assembly, 2D art asset generation, and audio setup.":"复现1986年的NES平台游戏塞尔达传说，并加入自定义解密关卡。完成全部脚本编写、关卡设计、场景搭建、2D美术资产生成、音频配置。",
+ "Skin Ooze Shader Adjustment":"Skin Ooze Shader 参数调整",
+ "An automated workflow for game art": "自动化游戏美术工作流",
+ "Asset pipeline": "资源制作流程",
+ "A fully automated AI workflow for game art assets, translating natural-language requirements into asset search, AI generation, Blender processing and engine delivery. Supports 2D/3D asset creation, PBR materials, rigging, animation generation and model optimization, automating the complete pipeline from generation and repair to engine import.": "一套全自动的游戏美术资源 AI 工作流，将自然语言需求转化为资源搜索、AI 生成、Blender 处理和引擎交付。支持 2D/3D 资源制作、PBR 材质、绑定、动画生成与模型优化，自动完成从生成、修复到引擎导入的完整流程。",
+ "View autoTA on GitHub": "在 GitHub 查看 autoTA",
+ "Generates random sparkles of varying sizes and brightness across a fabric surface. The relationship between microfacet orientation and viewing angle makes the sparkles appear and disappear as the view changes. Suitable for effects such as sequined clothing and shimmering water.": "在布料表面生成大小、亮度各异的随机闪点。通过微面方向与观察角度的关系，让闪点随视角变化明灭。可用于服装亮片、水面波光闪烁等效果。",
+ "Translucent jade with flowing highlights": "透亮玉石与流动微光",
+ "Uses a thickness mask and backlighting response to capture the translucency of jade. An inner luminous core, cloud-like textures, and surface lighting combine to create depth within the material. A flow map drives fine sparkles to produce a slowly drifting sheen.": "通过厚度遮罩图与背光响应，表现玉石透亮的材质特征。将内部亮芯、云絮纹理和表面光照叠加，塑造玉石的层次感。使用 flowmap 驱动闪点，呈现缓慢流动的细碎光泽。",
+ "Combines nebulae, twinkling stars, and rings of flowing light on the material surface. Object-space parallax shifts the starfield relative to the viewing angle. Stars twinkle at different phases while three rotating star rings add layers of depth. Suitable for umbrella canopies, mirrors, jade, and similar effects.": "将星云、闪烁星点与环形流光组合在材质表面。通过物体空间视差，让星空随观察角度产生相对位移。使用不同相位的星星闪烁与三圈旋转星环，丰富整体层次。适合用于伞面、镜面、玉石等效果。",
+ "Distortion textures perturb color and normals separately to create the flow of a viscous surface. A shape mask constrains the flow and keeps the effect region stable. Dynamic dissolve textures make the ink-like effect appear and fade more naturally. Suitable for tattoos, venom, and similar effects.": "通过扭曲贴图分别扰动颜色与法线，营造黏稠表面的流动感。使用形态遮罩贴图约束流动范围，保持效果区域稳定。结合动态消散纹理，使得墨蚀的显露和消退更自然。适合用于纹身、毒液等效果。",
+ "Before": "处理前",
+ "After": "处理后",
+ "Watch on Google Drive": "在 Google Drive 中观看",
+ "Cloth Glitter Shader Adjustment": "Cloth Glitter Shader 参数调整",
+ "Jade Mountain Shader Adjustment": "Jade Mountain Shader 参数调整",
+ "Parallax Plane Shader Adjustment": "Parallax Plane Shader 参数调整",
  'Play in browser':'在网页中试玩','Open game in a new tab':'在新标签页打开游戏',
  'This student project recreates the core dungeon experience of the original *The Legend of Zelda* using Unity and C#, including combat, enemy behavior, and room-based exploration.':'这个学生项目使用 Unity 和 C# 重现了初代 *The Legend of Zelda* 的核心地牢体验，包括战斗、敌人行为和以房间为单位的探索。',
  'Building on this foundation, we created **Inverted Maze**, a custom dungeon where ladders let players walk on walls while ordinary floors become barriers. Players push boxes onto gravity buttons to rotate entire rooms 180 degrees, causing weights to fall and reveal new passages. These mechanics challenge players to rethink familiar spaces and plan how each action changes the available routes.':'在此基础上，我们创作了自定义地牢 **Inverted Maze**：玩家可以通过梯子在墙壁上行走，而普通地板则成为障碍。玩家将箱子推到重力按钮上，使整个房间旋转 180 度，让重物落下并打开新的通道。这些机制要求玩家重新思考熟悉的空间，并规划每一步行动将如何改变可通行的路线。',

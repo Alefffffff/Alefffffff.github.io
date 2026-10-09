@@ -43,6 +43,11 @@ body{isolation:isolate}
 #shore{z-index:-2}
 #fish{position:fixed;inset:0;width:100%;height:100%;z-index:-1;pointer-events:none}
 .game-preview{aspect-ratio:960/632}.game-preview>img{width:100%;height:100%;object-fit:contain}.game-preview iframe{width:100%;height:100%;border:0;display:block}
+.video-comparison{display:grid;grid-template-columns:minmax(0,1fr);gap:18px;align-items:center;margin-bottom:24px}
+.comparison-item{min-width:0}.comparison-label{font:italic 18px Georgia,serif;margin:0 0 12px}.comparison-arrow{font:30px Georgia,serif;text-align:center}.video-comparison .media{margin-bottom:20px}.video-comparison .video-fallback{margin-bottom:0;font-size:11px}.video-comparison .video{aspect-ratio:4/3}
+.native-video{background:transparent}.native-video video{display:block;width:100%;height:auto;max-height:560px;object-fit:contain}.video-comparison .native-video{aspect-ratio:16/9;background:#243d45;margin-bottom:0}.video-comparison .native-video video{width:100%;height:100%;object-fit:contain}.video-comparison .comparison-arrow{align-self:center;height:auto;line-height:1;display:grid;place-items:center}
+.gif-gallery{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:24px 0 28px}.gif-gallery figure{margin:0;min-width:0}.gif-gallery img{width:100%;height:auto;aspect-ratio:3/4;object-fit:contain;display:block}.gif-gallery figcaption{font-size:11px;text-align:center;margin-top:8px;opacity:.8}
+@media(max-width:480px){.video-comparison{gap:14px}.comparison-arrow{font-size:24px}.gif-gallery{gap:6px}.gif-gallery figcaption{font-size:10px}}
 #header-shore{position:absolute;top:0;left:calc(50% - 50vw);width:100vw;height:100%;z-index:-1;pointer-events:none;background:linear-gradient(90deg,var(--sand) 40%,var(--sea) 40%)}
 @media(min-width:761px){.project-title-inner{top:140px}.project{scroll-margin-top:132px}}
 .language-toggle span{opacity:.6}.language-toggle[aria-pressed=false] span:first-child,.language-toggle[aria-pressed=true] span:last-child{opacity:1;font-weight:bold}
@@ -55,3 +60,12 @@ body{padding-bottom:var(--footer-height,70px);overflow-x:clip}
 .site-footer{position:fixed;bottom:0;left:50%;transform:translateX(-50%);z-index:10;isolation:isolate;margin:0}
 #footer-shore{position:absolute;inset:0 auto auto 0;width:100vw;height:100%;z-index:-1;pointer-events:none}
 @media(max-width:760px){.site-footer{width:100%;padding-bottom:calc(22px + env(safe-area-inset-bottom,0px))}}
+
+/* Proportional columns keep the cropped monster models at an equal height. */
+.monster-gallery{grid-template-columns:0.905fr 0.703fr 1.367fr;align-items:center}.monster-gallery img{width:100%;height:auto;aspect-ratio:auto}
+.monster-gallery figure:nth-child(1) img{aspect-ratio:676/771}.monster-gallery figure:nth-child(2) img{aspect-ratio:504/741}.monster-gallery figure:nth-child(3) img{aspect-ratio:1109/823}
+
+.game-preview.is-playing{aspect-ratio:auto}.game-preview.is-playing iframe{height:100%}
+.dreamweaver-gallery{grid-template-columns:0.3145fr 0.4373fr 0.3432fr;max-width:340px;margin-inline:auto;align-items:center}.dreamweaver-gallery img{width:100%;height:auto}.dreamweaver-gallery figure:nth-child(1) img{aspect-ratio:273/868}.dreamweaver-gallery figure:nth-child(2) img{aspect-ratio:387/885}.dreamweaver-gallery figure:nth-child(3) img{aspect-ratio:291/848}
+
+.native-video video{background:#000}
