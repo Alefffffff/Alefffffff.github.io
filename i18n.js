@@ -1,6 +1,7 @@
 // English copy lives in content.js / app.js. Add its Chinese equivalent here.
 // Unlisted strings (including product and project names) keep their original text.
 const chinese = {
+ "Illustrations":"插画",
 "Recreated the 1986 NES game The Legend of Zelda and added custom puzzle levels. Completed all scripting, level design, scene assembly, 2D art asset generation, and audio setup.":"复现1986年的NES平台游戏塞尔达传说，并加入自定义解密关卡。完成全部脚本编写、关卡设计、场景搭建、2D美术资产生成、音频配置。",
  "Skin Ooze Shader Adjustment":"Skin Ooze Shader 参数调整",
  "An automated workflow for game art": "自动化游戏美术工作流",

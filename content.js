@@ -58,10 +58,6 @@ const portfolio = {
         "Animation",
         "Level design"
       ],
-      "video": {
-        "provider": "local",
-        "src": "assets/videos/classroom.mp4"
-      },
       "description": "A short game prototype made as a two-week class project. My focus was the visual pipeline, from asset creation to real-time gameplay in Unity.",
       "detail": "I contributed scene and character modeling, character rigging and animation, level design, and animation controller setup. The project brought art, animation, and game systems together in a playable environment.",
       "source": "https://www.artstation.com/artwork/Zl8QOm",
@@ -70,7 +66,9 @@ const portfolio = {
       "images": [
         "assets/art-06.webp",
         "assets/art-07.webp"
-      ]
+      ],
+      "bottomLink": "https://youtu.be/ULb4oJRbtCw?si=X1e7Y3rYWuOyOOlA",
+      "bottomLinkLabel": "Gameplay Video"
     },
     {
       "title": "Dreamweaver",
@@ -89,10 +87,6 @@ const portfolio = {
         "assets/art-01.webp",
         "assets/art-02.webp"
       ],
-      "detailVideo": {
-        "provider": "local",
-        "src": "assets/videos/dreamweaver-v2.mp4"
-      },
       "primaryGifs": [
         {
           "src": "assets/Young1Idle-cropped.gif",
@@ -121,16 +115,17 @@ const portfolio = {
       "description": "Recreated the 1986 NES game The Legend of Zelda and added custom puzzle levels. Completed all scripting, level design, scene assembly, 2D art asset generation, and audio setup.",
       "detail": "",
       "images": [
-        "assets/zelda-01.png",
-        "assets/zelda-02.png",
-        "assets/zelda-03.png",
-        "assets/zelda-04.png"
+        "assets/zelda-completion.png"
       ],
       "detailVideo": {
         "provider": "local",
         "src": "assets/videos/zelda.mp4"
       },
-      "game": "assets/zelda-game.html"
+      "game": "assets/zelda-game.html",
+      "detailByLanguage": {
+        "en": "Building on this foundation, we created **Inverted Maze**, a custom dungeon where ladders let players walk on walls while ordinary floors become barriers. Players push boxes onto gravity buttons to rotate entire rooms 180 degrees, causing weights to fall and reveal new passages. These mechanics challenge players to rethink familiar spaces and plan how each action changes the available routes.\n\nI developed behavior scripts for enemies including Stalfos and Keese, along with shared enemy animation, damage feedback, and audio systems. I designed most of Inverted Maze’s levels and gameplay mechanics, combining wall traversal, box pushing, room rotation, and falling weights into connected puzzles. I also hand-drew some of the art assets and worked on gameplay UI, screen shake, and audiovisual feedback to make the new mechanics easier to understand.\n\n**Team:** Yuyang (Alef) Liu and Mike Xiangyu Cai",
+        "zh": ""
+      }
     }
   ],
   "artworks": [
@@ -168,7 +163,6 @@ const portfolio = {
       },
       "description": "Generates random sparkles of varying sizes and brightness across a fabric surface. The relationship between microfacet orientation and viewing angle makes the sparkles appear and disappear as the view changes. Suitable for effects such as sequined clothing and shimmering water.",
       "detail": "",
-      "source": "https://www.artstation.com/artwork/dLKX5w",
       "poster": "assets/cover-02.jpg",
       "detailVideo": {
         "provider": "local",
@@ -190,7 +184,6 @@ const portfolio = {
       },
       "description": "Combines nebulae, twinkling stars, and rings of flowing light on the material surface. Object-space parallax shifts the starfield relative to the viewing angle. Stars twinkle at different phases while three rotating star rings add layers of depth. Suitable for umbrella canopies, mirrors, jade, and similar effects.",
       "detail": "",
-      "source": "https://www.artstation.com/artwork/dLKX5w",
       "detailVideo": {
         "provider": "local",
         "src": "assets/videos/parallax-adjustment.mp4"
@@ -211,7 +204,6 @@ const portfolio = {
       },
       "description": "Distortion textures perturb color and normals separately to create the flow of a viscous surface. A shape mask constrains the flow and keeps the effect region stable. Dynamic dissolve textures make the ink-like effect appear and fade more naturally. Suitable for tattoos, venom, and similar effects.",
       "detail": "",
-      "source": "https://www.artstation.com/artwork/dLKX5w",
       "detailVideo": {
         "provider": "local",
         "src": "assets/videos/skin-adjustment.mp4"
@@ -232,7 +224,6 @@ const portfolio = {
       },
       "description": "A third-person combat prototype exploring responsive animation transitions, combo timing, and combat feedback. I implemented the movement, combat, enemy behavior, and animation integration.",
       "detail": "Input buffering and frame-based combo windows connect three attacks, each with its own recovery animation. The final hit adds knockback; sprinting attacks use a heavy strike. A release-timed parry rewards matching the enemy’ warning window. Hit stop, camera shake, color flashes, audio, and knockback make each interaction readable. Source animations were downloaded from Mixamo and edited in Blender.",
-      "source": "https://www.artstation.com/artwork/5evDG1",
       "images": [
         "assets/art-08.jpg"
       ],
@@ -248,7 +239,6 @@ const portfolio = {
       ],
       "description": "3D monster models created in Blender for our India-themed Global Game Jam 2026 game, Dreamweaver.",
       "detail": "A collection of character models, with additional views from the modeling process.",
-      "source": "https://www.artstation.com/artwork/JrxbNz",
       "images": [
         "assets/art-09.webp",
         "assets/art-10.webp",
@@ -283,7 +273,6 @@ const portfolio = {
       },
       "description": "From a photogrammetry scan of my own face to a real-time MetaHuman character in Unreal Engine 5.",
       "detail": "This pipeline explores mesh cleanup, identity solving, rigging, and performance-driven setup to bring a facial scan into a real-time character workflow.",
-      "source": "https://www.artstation.com/artwork/AZOG6V",
       "images": [
         "assets/art-12.webp",
         "assets/art-13.webp"
@@ -299,9 +288,8 @@ const portfolio = {
         "Procreate",
         "2D art"
       ],
-      "description": "A selection of my illustrations, including fan art and comics.",
-      "detail": "More illustrations from my personal collection.",
-      "source": "https://www.artstation.com/artwork/6LWLlw",
+      "description": "",
+      "detail": "",
       "images": [
         "assets/art-14.webp",
         "assets/art-15.webp",

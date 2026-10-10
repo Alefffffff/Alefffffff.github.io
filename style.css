@@ -69,3 +69,9 @@ body{padding-bottom:var(--footer-height,70px);overflow-x:clip}
 .dreamweaver-gallery{grid-template-columns:0.3145fr 0.4373fr 0.3432fr;max-width:340px;margin-inline:auto;align-items:center}.dreamweaver-gallery img{width:100%;height:auto}.dreamweaver-gallery figure:nth-child(1) img{aspect-ratio:273/868}.dreamweaver-gallery figure:nth-child(2) img{aspect-ratio:387/885}.dreamweaver-gallery figure:nth-child(3) img{aspect-ratio:291/848}
 
 .native-video video{background:#000}
+
+html:not([lang="zh-CN"]) .zh-only{display:none}
+.footer-socials{flex-wrap:wrap;justify-content:flex-end;row-gap:10px}
+
+html[lang="zh-CN"] .coast-note{transform:none;text-orientation:upright;font-style:normal}
+
