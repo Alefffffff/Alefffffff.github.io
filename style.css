@@ -75,3 +75,14 @@ html:not([lang="zh-CN"]) .zh-only{display:none}
 
 html[lang="zh-CN"] .coast-note{transform:none;text-orientation:upright;font-style:normal}
 
+
+.brand-logo{width:48px;height:48px;object-fit:contain;vertical-align:middle;margin-left:8px}
+.intro-heading{display:flex;align-items:center;gap:14px;margin-bottom:24px}.intro-logo{width:90px;height:90px;object-fit:contain;flex-shrink:0}.intro-heading>div{min-width:0}.intro-heading .eyebrow{margin:0 0 10px}.intro-scroll .intro-heading h1{font-size:30px;line-height:1.2;letter-spacing:-1px;margin:0;white-space:nowrap}html[lang=zh-CN] .intro-scroll .intro-heading h1{font-size:30px;letter-spacing:0}
+html[lang=zh-CN] .collection-heading h1{font-size:clamp(28px,3.2vw,38px);white-space:nowrap}
+@media(max-width:480px){.intro-logo{width:64px;height:64px}.intro-heading{gap:10px}.intro-scroll .intro-heading h1,html[lang=zh-CN] .intro-scroll .intro-heading h1{font-size:24px}.intro-heading .eyebrow{font-size:11px;letter-spacing:.08em}}
+
+.intro-logo{width:110px;height:100px;position:relative;overflow:hidden;align-self:center}.intro-logo img{position:absolute;width:170%;height:170%;object-fit:contain;left:50%;top:50%;transform:translate(-50%,-36%)}
+@media(max-width:480px){.intro-logo{width:76px;height:76px}}
+
+.intro-logo img{width:145%;height:145%;transform:translate(-50%,-36%)}
+

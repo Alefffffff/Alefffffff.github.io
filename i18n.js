@@ -90,7 +90,7 @@ try { if (localStorage.getItem('alef-language') === 'zh') language = 'zh'; } cat
 function translate(text) {
  if (language === 'en') return text;
  if (chinese[text]) return chinese[text];
- if (/^(Projects|Artworks|Other)\.$/.test(text)) return chinese[text.slice(0,-1)] + '。';
+ if (/^(Projects|Artworks|Other)\.$/.test(text)) return chinese[text.slice(0,-1)];
  if (text.startsWith('Selected work / ')) return text.replace('Selected work / ', '精选作品 / ');
  if (text.startsWith('Play ')) return '播放 ' + text.slice(5);
  if (text.startsWith('More about ')) return '了解更多：' + text.slice(11);
